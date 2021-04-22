@@ -2,15 +2,15 @@
 # vars file for manage_users role
 
 # valid choices for user_action: add, delete, show, update, verify and list_auth
-user_action: add 
+user_action: show
 
 # update list of users as needed
 # special_authority choices: 
 # *USRCLS, *NONE, *SAME, *ALLOBJ, *AUDIT, *JOBCTL, *SAVSYS, *IOSYSCFG, *SECADM, *SERVICE, *SPLCTL
 users:
-  - {name: TESTUSER1, special_authority: ["*ALLOBJ", "*JOBCTL", "*SECADM"]}
-  - {name: TESTUSER2, special_authority: ["*USRCLS"]}
-  - {name: TESTUSER3, special_authority: ["*SPLCTL", "*IOSYSCFG"]}
+  - {name: JANE, special_authority: ["*ALLOBJ", "*JOBCTL", "*SECADM"]}
+  - {name: JOHN, special_authority: ["*USRCLS"]}
+  - {name: JOE, special_authority: ["*SPLCTL", "*IOSYSCFG"]}
 
 
 compliance_check_list: 
