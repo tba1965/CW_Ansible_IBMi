@@ -2,7 +2,7 @@
 # vars file for manage_users role
 
 # valid choices for user_action: add, delete, show, update, verify and list_auth
-user_action: show
+user_action: add
 
 # update list of users as needed
 # special_authority choices: 
